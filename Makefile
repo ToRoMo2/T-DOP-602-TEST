@@ -14,4 +14,5 @@ fclean: clean
 
 tests_run:
 	@echo "Running tests..."
-	@./tests/test.sh
+	bash ./tests/test.sh
+
